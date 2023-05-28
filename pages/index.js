@@ -1,8 +1,5 @@
-import Head from "next/head";
-//import { Inter } from 'next/font/google'
 import styles from "@/styles/Home.module.css";
 import Typewriter from "typewriter-effect";
-import Layout from "@/comps/Layout";
 
 export default function Home() {
   return (
