@@ -1,4 +1,4 @@
-# web app for resume build using next.js
+# web app for resume built using next.js
 
 
 
