@@ -2,7 +2,7 @@
 
 
 
-[<img src="https://github.com/Jafar-Rezazadeh/jafar.rezazadeh-next.js/assets/59100135/4c4fcca1-5862-4e49-8e2a-503bb906a7c3"/>](https://github.com/)
+[<img src="https://github.com/Jafar-Rezazadeh/jafar.rezazadeh-next.js/assets/59100135/4c4fcca1-5862-4e49-8e2a-503bb906a7c3"/>](https://jafar-rezazadeh-next-js.vercel.app/resume)
 
 
 
