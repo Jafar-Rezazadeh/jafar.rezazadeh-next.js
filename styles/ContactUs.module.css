@@ -1,0 +1,121 @@
+.contactUs {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 70%;
+  min-height: 600px;
+  background-color: var(--oxford-blue);
+  border-radius: 10px;
+  box-shadow: 0 0 20px var(--yale-blue);
+  padding: 50px;
+  direction: rtl;
+  color: var(--ghost-white);
+}
+
+.contactUsTitle {
+  font-size: x-large;
+  color: var(--ghost-white);
+}
+
+.serviceItems {
+  margin-top: 50px;
+  display: inline-flex;
+  gap: 20%;
+  width: 100%;
+}
+
+.sItem {
+  display: flex;
+  flex-direction: column;
+  min-width: max-content;
+  align-items: flex-start;
+}
+
+.itemtitle {
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon {
+  color: var(--light-green);
+  padding: 20px 0 20px 15px;
+
+  height: 30px;
+  width: 30px;
+}
+
+.form {
+  font-family: "Roboto Mono";
+  font-size: 13px;
+  color: white;
+  letter-spacing: 0;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0 10px 50px;
+}
+
+.input {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  background: none;
+  font-size: 15px;
+  height: 60px;
+  width: 50%;
+  color: white;
+  margin-bottom: 30px;
+  padding-right: 10px;
+  border: none;
+  border-bottom: 1px solid #dddddd;
+  -webkit-appearance: none;
+  appearance: none;
+  resize: none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  outline: 0;
+}
+
+.input::placeholder {
+  color: var(--ghost-white);
+  opacity: 1; /* Firefox */
+  font-size: 20px;
+}
+
+.input:focus:required:invalid {
+  border-color: red;
+}
+.input:focus:required:invalid::placeholder {
+  color: red;
+}
+
+.submit {
+  margin-top: 20px;
+  letter-spacing: 0;
+  font-weight: 400;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  height: 42px;
+  width: 200px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  padding: 0 30px;
+  cursor: pointer;
+  color: var(--ghost-white);
+  border: 1px solid var(--light-green);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.submit:hover {
+  background-color: var(--light-green);
+  color: var(--oxford-blue);
+}
