@@ -17,9 +17,16 @@ export default function App({ Component, pageProps }) {
         }
       }}
     >
-      <Layout key={router.asPath}>
-        <Component {...pageProps} />
-      </Layout>
+      <motion.div
+        key={router.asPath}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+      >
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </motion.div>
     </AnimatePresence>
   );
 }
